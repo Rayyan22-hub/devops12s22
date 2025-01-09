@@ -17,9 +17,8 @@ jobs:
       - name: install stylelint
         run: npm install --save-dev stylelint
       - name: lint HTML Files
-        run: npv htmlhint "**/*.html"
+        run: npx htmlhint "**/*.html"
       - name: lint css Files
         run: npx stylelint"**/*.css"
       - name: List Contents of Package.json
         run:  cat package.json
-        

@@ -19,6 +19,6 @@ jobs:
       - name: lint HTML Files
         run: npx htmlhint "**/*.html"
       - name: lint css Files
-        run: npx stylelint"**/*.css"
+        run: npx stylelint "**/*.css"
       - name: List Contents of Package.json
         run:  cat package.json
